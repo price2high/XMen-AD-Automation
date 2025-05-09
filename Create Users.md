@@ -1,3 +1,4 @@
+```
 Import-Module ActiveDirectory
 $users = Import-Csv "C:\path\to\xmen_users.csv"
 
@@ -17,3 +18,4 @@ foreach ($user in $users) {
 
     Write-Host "Created user: $username"
 }
+```
